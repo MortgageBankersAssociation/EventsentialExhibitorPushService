@@ -18,8 +18,8 @@ Public Class ExhibitorPushService
         'Seting New timer 
         t = New Timer()
 
-        Me.t.Interval = 120000
-        '
+        Me.t.Interval = 3600000
+        'set interval
         t.AutoReset = True
 
         '## on start event
